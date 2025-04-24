@@ -13,6 +13,8 @@
 **MENTOR NAME**: NEELA SANTHOSH
 
 #DESCRIPTION OF TASK
+
+
 This quiz application is a dynamic, web-based tool built using HTML, CSS, and JavaScript, designed to help users test their knowledge across various subjects including Science, History, Geography, Mathematics, and Technology. Upon launching the app, users are greeted with a clean and intuitive interface where they can select a quiz domain from a dropdown menu. Once a domain is selected, the application dynamically loads a set of ten multiple-choice questions relevant to the selected category. Each question appears with four answer options presented as buttons, and users interact by selecting an option and then confirming their choice. The confirm step ensures users are confident in their selection before submission. After confirmation, the app provides immediate visual feedback—correct answers are highlighted in green, and incorrect ones in red. This feedback helps reinforce learning in a clear and engaging way.
 
 The app also features a progress bar that visually tracks the user's advancement through the quiz, giving a sense of progression and motivation. Once an answer is confirmed, users proceed by clicking the “Next” button to continue through the quiz. After all ten questions are answered, the app displays a summary of the user’s score for the selected domain. If the user attempts quizzes in multiple domains, scores are stored and displayed together, allowing users to see how they’ve performed across different subjects.
