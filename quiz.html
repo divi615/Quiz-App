@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quiz App</h1>
+    
+    <label for="domain-select">Select a domain:</label>
+    <select id="domain-select">
+        <option value="">--Choose a domain--</option>
+        <option value="science">Science</option>
+        <option value="history">History</option>
+        <option value="geography">Geography</option>
+        <option value="mathematics">Mathematics</option>
+        <option value="technology">Technology</option>
+    </select>
+
+    <div id="quiz" style="display: none;">
+        <p id="question"></p>
+        <div id="options"></div>
+        <button id="confirm" disabled>Confirm Answer</button>
+        <button id="submit" disabled>Next</button>
+        <p id="result"></p>
+
+        <div class="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+
+    <div id="summary"></div>
+
+    <button id="return" style="display: none;">Return to Domain Selection</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
